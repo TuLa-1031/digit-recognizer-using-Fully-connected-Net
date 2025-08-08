@@ -27,7 +27,6 @@ Each optimizer is tested with the same model architecture, hyperparameters and s
 - Final accuracy
 - Training loss curve
 
-# Results
 <img width="699" height="720" alt="Results" src="https://github.com/user-attachments/assets/9d8386a8-c163-4af6-978e-fde0533494c9" />
 
 ## Training
