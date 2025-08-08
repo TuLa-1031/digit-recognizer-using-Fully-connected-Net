@@ -8,7 +8,7 @@ This project implements a digit recognizer using a **Fully Connected Neural Netw
 - Training set: 60,000 images  
 - Test set: 10,000 images
 
-## 🧠 Model Architecture
+## Model Architecture
 Input image (28x28 = 784 features) --> [Affine layer - (Batch normalization) - ReLU activate - (Drop out)] x N --> Affine layer --> Softmax classification
 
 (): Optional
@@ -19,7 +19,7 @@ This repo using architecture with N equal to 2
 
 #2 hidden layer: 100 neurons
 
-## ⚙Update Rules Comparison
+## Update Rules Comparison
 This project includes an experiment comparing different optimization update rules:
 1. **SGD** – Stochastic Gradient Descent
 2. **SGD with Momentum**
