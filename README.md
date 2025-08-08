@@ -10,9 +10,13 @@ This project implements a digit recognizer using a **Fully Connected Neural Netw
 
 ## 🧠 Model Architecture
 Input image (28x28 = 784 features) --> [Affine layer - (Batch normalization) - ReLU activate - (Drop out)] x N --> Affine layer --> Softmax classification
+
 (): Optional
+
 This repo using architecture with N equal to 2
+
 #1 hidden layer: 500 neurons
+
 #2 hidden layer: 100 neurons
 
 ## ⚙Update Rules Comparison
@@ -31,8 +35,10 @@ Each optimizer is tested with the same model architecture, hyperparameters and s
 
 ## Training
 First, tuning the hyperparameters (learning rate, weight scale, regularization hyperparameter) using random search from large range to smaller range
+
 Traing with best hyperparamters, with Adam update rule, Batch normaliztion, dropout rate = 0.25
 
 ## Results
 Validation accuracy: 0.944 (= 94.4%)
+
 Test accuracy (on Kaggle): 0.964 (= 96.4%)
